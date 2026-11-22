@@ -21,9 +21,11 @@ addLayer("p", {
         return new Decimal(1)
     },
     upgrades: {
-    title: "Make this whatever you want!",
-    description: "Double your point gain.",
-    cost: new Decimal(1),
+        11:{
+            title: "Make this whatever you want!",
+            description: "Double your point gain.",
+            cost: new Decimal(1),
+        }
     },
     row: 0, // Row the layer is in on the tree (0 is the first row)
     hotkeys: [
